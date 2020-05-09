@@ -17,6 +17,7 @@ from numpyro.distributions.continuous import (
     HalfNormal,
     InverseGamma,
     LKJCholesky,
+    Logistic,
     LogNormal,
     LowRankMultivariateNormal,
     MultivariateNormal,
@@ -50,6 +51,7 @@ from numpyro.distributions.distribution import (
     Distribution,
     ExpandedDistribution,
     Independent,
+    MaskedDistribution,
     TransformedDistribution,
     Unit
 )
@@ -88,7 +90,9 @@ __all__ = [
     'InverseGamma',
     'LKJ',
     'LKJCholesky',
+    'Logistic',
     'LogNormal',
+    'MaskedDistribution',
     'Multinomial',
     'MultinomialLogits',
     'MultinomialProbs',
@@ -106,4 +110,5 @@ __all__ = [
     'Uniform',
     'Unit',
     'ZeroInflatedPoisson',
+
 ]
